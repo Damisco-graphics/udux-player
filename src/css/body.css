@@ -1,0 +1,299 @@
+#Body{
+    width: 80%;
+    background: #28282B;
+    padding:  2.5%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;  
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x:auto;
+    flex-direction: column;
+    scrollbar-color:#FBBA12;
+    color: white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 13px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FBBA12;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FBBA12;
+  }
+  
+
+
+
+.udux{
+  position: relative;
+}
+
+.udux img{
+  object-fit: cover;
+  width: 100%;;
+  height:150px;
+}
+
+.udux h1{
+  
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  font-family: cursive;
+  font-style: italic;
+  color: white;
+  font-weight: bolder;
+}
+
+.udux h2{  
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    font-family: cursive;
+    font-style: italic;
+    color: black;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-shadow: 0 0 1px black;
+  
+}
+
+  h2{
+      text-align: left;
+      color: white;
+  }
+.trends1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+  .container{
+  display: flex;
+  box-sizing: border-box;
+  width: 226.38px;
+  height: 260.01px;
+  margin-right: 5px;
+  top: 482px;
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  }
+
+  .colored1{
+    width: 20.36px;
+    height: 236.15px;
+    float: left;
+    top: 546.2px;
+    margin-bottom: 0;
+    background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
+  }
+
+.innercontainer{
+box-sizing: border-box;
+width: 185.66px;
+height: 200.7px;
+top: 496.66px;
+z-index: 950;
+border: 1px solid #707070;
+  }
+  .innercontainer img{
+margin-top: -25px;
+width: 162.86px;
+height: 162.86px;
+border: 7px solid white;
+  }
+
+.colored2{
+width: 20.36px;
+height: 236.15px;
+float: right;
+top: 546.2px;
+z-index: 900;
+background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
+
+}
+  .drkcolored{
+width: 225.57px;
+height: 74.92px;
+margin-left: -20.95px;
+top: 440.44px;
+background: linear-gradient(89.79deg, #AB491C -19.39%, #DDAE45 123.38%);
+margin-top: 22px;
+
+    text-align: left;
+    padding: 12px 25px;
+
+  }
+
+  h4, h5{
+    color: white;    
+  }
+
+  .wnecolor{
+    background: linear-gradient(89.79deg, #C61522 -19.39%, #030304 123.38%);
+  }
+
+  .blucolor{
+    background: linear-gradient(89.79deg, #204F9D -19.39%, #ADC0D1 123.38%);
+  }
+
+
+
+
+  @media (max-width:500px) and (min-width:280px){
+    #Body{
+      min-width: 100%;
+      min-height: fit-content;
+      margin-bottom: 2px;      
+   
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #505050;
+      border-radius: 20px;
+      width: 1px;
+    }
+
+    .udux h2{
+      right: 10px;
+      bottom: -10px;
+      font-size: 2.2rem;
+    }
+    
+    .trends1{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-y: hidden;
+      overflow-x: auto;
+      justify-content: none;
+    }
+
+    .container{
+      scale: 0.6;
+      margin: -40px;
+      top: 0;
+    
+    }
+  }
+
+
+  @media (max-width:561px) and (min-width:501px){
+
+.udux{
+  margin: -10px;
+  margin-bottom: 15px;
+}
+    .udux img{
+      height: 120px
+    }
+    .udux h2{
+      right: 15px;
+      bottom: -15px;
+      font-size: xx-large;
+    }
+    .trends1{
+      margin-top: 10px;
+    }
+
+    .container{
+      scale: 0.6;
+
+      margin: -60px;
+      margin-bottom: -20px;
+    }
+  }
+
+  @media (max-width:601px) and (min-width:562px){
+    .udux{
+      margin: -10px;
+      margin-bottom: 15px;
+    }
+        .udux img{
+          height: 130px
+        }
+        .udux h2{
+          right: 20px;
+          bottom: -15px;
+          font-size: 2.2rem;
+        }
+        .trends1{
+          margin-top: 10px;
+          flex-wrap: wrap;
+        }
+    
+        .container{
+          scale: 0.65;
+    
+          margin: -55px;
+          margin-bottom: 0px;
+        }
+    
+
+  }
+  
+  @media (max-width:679px) and (min-width:600px){
+    .udux{
+      margin: -10px;
+      margin-bottom: 15px;
+    }
+        .udux img{
+          height: 135px
+        }
+        .udux h2{
+          right: 10px;
+          bottom: -15px;
+          font-size: 2.5rem;
+        }
+        .trends1{
+          margin-top: 10px;
+          flex-wrap: wrap;
+        }
+    
+        .container{
+          scale: 0.68;
+    
+          margin: -39px;
+          margin-bottom: 0px;
+        }
+    
+
+  }
+  @media (max-width:945px) and (min-width:680px){
+    .udux{
+      margin: -10px;
+      margin-bottom: 15px;
+    }
+        .udux img{
+          height: 130px
+        }
+        .trends1{
+          margin-top: 10px;
+          flex-wrap: wrap;
+        }
+    
+        .container{
+          scale: 0.75;
+    
+          margin: -40px;
+          margin-bottom: 0px;
+        }
+    
+
+  }
+
+

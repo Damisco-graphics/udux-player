@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/udux-player/static/css/main.57cf36f4.css",
+    "main.js": "/udux-player/static/js/main.515f4d37.js",
+    "static/js/787.e45f4a9f.chunk.js": "/udux-player/static/js/787.e45f4a9f.chunk.js",
+    "static/media/jene.jpg": "/udux-player/static/media/jene.f856e240dbc059840aca.jpg",
+    "static/media/koffee.jpg": "/udux-player/static/media/koffee.86cb5089193e5623bc88.jpg",
+    "static/media/lojay.jpg": "/udux-player/static/media/lojay.cbb48e8b210513715f13.jpg",
+    "static/media/burna.jpg": "/udux-player/static/media/burna.2d191e20a08d832b73de.jpg",
+    "static/media/headerpix.jpeg": "/udux-player/static/media/headerpix.91f4655a17ab3fbaac67.jpeg",
+    "index.html": "/udux-player/index.html",
+    "main.57cf36f4.css.map": "/udux-player/static/css/main.57cf36f4.css.map",
+    "main.515f4d37.js.map": "/udux-player/static/js/main.515f4d37.js.map",
+    "787.e45f4a9f.chunk.js.map": "/udux-player/static/js/787.e45f4a9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57cf36f4.css",
+    "static/js/main.515f4d37.js"
+  ]
+}
